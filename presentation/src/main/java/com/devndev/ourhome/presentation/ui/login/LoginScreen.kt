@@ -29,8 +29,7 @@ fun LoginScreen(
             .padding(top = 200.dp, bottom = 200.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Image(
-            modifier = Modifier.size(250.dp),
+
             painter = painterResource(id = R.drawable.temp_home),
             contentDescription = null
         )
