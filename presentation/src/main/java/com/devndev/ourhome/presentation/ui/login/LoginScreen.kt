@@ -30,9 +30,15 @@ fun LoginScreen(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
+        Image(
+            modifier = Modifier.size(250.dp),
+
+
+
             painter = painterResource(id = R.drawable.temp_home),
             contentDescription = null
         )
+
         Spacer(modifier = Modifier.weight(1f))
         IconButton(
             onClick = {},
